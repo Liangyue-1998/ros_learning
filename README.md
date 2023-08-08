@@ -72,16 +72,64 @@ run command: ros2 run [package name] [class name]
 ## Node setup
 <img width="708" alt="image" src="https://github.com/Liangyue-1998/ros_learning/assets/61789633/8dfc922f-2711-4853-9130-497097d2821e">
 
-## Node topic communication
+## Message: Node topic communication
 1. Publisher/subscripter models
-2. Asynchronous
+2. Asynchronization
 3. Message structure: .msg file
 
 #### Publisher
-<img width="599" alt="image" src="https://github.com/Liangyue-1998/ros_learning/assets/61789633/8c6e4118-e4f6-4b63-99e8-95f14e2ac192">
+<img width="913" alt="image" src="https://github.com/Liangyue-1998/ros_learning/assets/61789633/46fd5ecb-4044-4408-a413-b8981f4f97ad">
+
 
 #### Subscriber
-<img width="625" alt="image" src="https://github.com/Liangyue-1998/ros_learning/assets/61789633/810aff34-47d3-418f-ac25-7b563a32dfca">
+<img width="641" alt="image" src="https://github.com/Liangyue-1998/ros_learning/assets/61789633/b207173a-23b0-4841-8e40-9f0625ee7416">
+
+#### usb camera in ros
+sudo apt install ros-humble-camera
+Publisher node: ros2 run usb_cam usb_cam_node_exe
+Subscriber node: ros2 run [package name] [class name]
+
+#### Topic command
+ros2 topic list
+ros2 topic info
+ros2 topic bw
+ros2 topic info /image_raw
+ros2 topic bw /image_raw
+** ros2 topic echo /image_raw **
+** rqt_graph **
+
+## Node service and client (request & response)
+1. Service and client
+2. Synchronization
+3. Unique service and mutiple client
+4. Data structure: .srv file
+<img width="563" alt="image" src="https://github.com/Liangyue-1998/ros_learning/assets/61789633/72a8cdc5-e63a-44eb-b1d1-583b5c7e7249">
+
+#### Client 
+1. Initilize the interface
+2. Create node and initilize the node
+3. Create client object
+4. Send request
+5. Wait for the response from service
+6. Destroy and shutoff the node
+<img width="661" alt="image" src="https://github.com/Liangyue-1998/ros_learning/assets/61789633/57ddf052-22c9-4132-b038-758174c1827f">
+ 
+#### Service
+1. Initilize the interface
+2. Create node and initilize the node
+3. Create service object
+4. callback function
+5. send response to the client
+6. Destroy and shutoff the node
+<img width="895" alt="image" src="https://github.com/Liangyue-1998/ros_learning/assets/61789633/72778f10-2fe8-44d6-a35d-4f7e6a5f13ab">
+
+#### Example
+<img width="874" alt="image" src="https://github.com/Liangyue-1998/ros_learning/assets/61789633/03b8908c-6d7e-4d39-95e6-1b09ab609ca1">
+
+
+
+
+
 
 
 
