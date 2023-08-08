@@ -20,4 +20,14 @@ turtlesim simulation
       path: current path of terminal
    3. data review
       ros2 bag play [filename]/
-      
+### Compile command
+1. cd ~/dev_ws
+2. colcon build
+3. source install/local_setuo.sh
+
+### create function package
+cd ~/dev_ws/src
+ros2 pkg create --build-type <build-type><package_name>
+1. c++: ros2 pkg create --build-type ament_cmake learning_pkg_c
+2. python: ros2 pkg create --build-type ament_python learning_pkg_python
+
