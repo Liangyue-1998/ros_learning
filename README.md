@@ -72,6 +72,20 @@ run command: ros2 run [package name] [class name]
 ## Node setup
 <img width="708" alt="image" src="https://github.com/Liangyue-1998/ros_learning/assets/61789633/8dfc922f-2711-4853-9130-497097d2821e">
 
+## Node topic communication
+1. Publisher/subscripter models
+2. Asynchronous
+3. Message structure: .msg file
+
+#### Publisher
+<img width="599" alt="image" src="https://github.com/Liangyue-1998/ros_learning/assets/61789633/8c6e4118-e4f6-4b63-99e8-95f14e2ac192">
+
+#### Subscriber
+<img width="625" alt="image" src="https://github.com/Liangyue-1998/ros_learning/assets/61789633/810aff34-47d3-418f-ac25-7b563a32dfca">
+
+
+
+
 
 
 
