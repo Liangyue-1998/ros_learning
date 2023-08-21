@@ -141,6 +141,18 @@ from [packge] import [interface name]
 - ros2 interface show [interface name]
 
 
+## DDS (Data Distribution Service - edge computing)
+![Screenshot from 2023-08-21 15-33-24](https://github.com/Liangyue-1998/ros_learning/assets/61789633/0682937f-05e1-496d-9ad5-1c7801f505f0)
+- real time
+- Hardware platform indeendence
+- Distributed system
+- Decoupling
+- High extension
+  #### Vortex DDS
+
+
+
+
   
 
 
