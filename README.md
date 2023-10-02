@@ -25,7 +25,7 @@ turtlesim simulation
 Excute compile process after each fix
 1. cd ~/dev_ws
 2. rosdepc install -i --from-path src --rosdistro humble -y
-3. colcon build
+3. colcon build --symlink-install
 4. source install/local_setup.sh
 
 ## create function package
