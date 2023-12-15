@@ -151,6 +151,15 @@ from [packge] import [interface name]
   #### Vortex DDS
 
 
+# Windows ROS2
+https://docs.ros.org/en/crystal/Installation/Windows-Install-Binary.html
+### Download ROS2
+https://github.com/ros2/ros2/releases
+### Environment setup
+call C:\dev\ros2_crystal\local_setup.bat
+
+
+
 
 
   
